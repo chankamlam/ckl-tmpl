@@ -14,6 +14,6 @@
 A javascript template engine for frontend and backend
 # Usage
 ```
-npm install scissor
+npm install ckl-tmpl
 ```
 # API

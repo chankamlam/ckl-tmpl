@@ -1,7 +1,7 @@
 {
-  "name": "scissor",
+  "name": "ckl-tmpl",
   "version": "1.0.0",
-  "description": "a javascript template engine",
+  "description": "A javascript template engine for frontend and backend",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "npx jest",
-    "coverage":"npx jest --coverage"
+    "coverage": "npx jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "url": "https://github.com/chankamlam/scissor/issues"
   },
   "homepage": "https://github.com/chankamlam/scissor#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^27.4.5"
   }
 }
