@@ -1,5 +1,5 @@
 {
-  "name": "ckl-tmpl",
+  "name": "@chankamlam/js-tmpl",
   "version": "1.0.0",
   "description": "A javascript template engine for frontend and backend",
   "main": "lib/index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chankamlam/ckl-tmpl.git"
+    "url": "git+https://github.com/chankamlam/js-tmpl.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chankamlam/ckl-tmpl/issues"
+    "url": "https://github.com/chankamlam/js-tmpl/issues"
   },
-  "homepage": "https://github.com/chankamlam/ckl-tmpl#readme",
+  "homepage": "https://github.com/chankamlam/js-tmpl#readme",
   "devDependencies": {
     "jest": "^27.4.5"
   }
