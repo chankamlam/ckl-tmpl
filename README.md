@@ -12,7 +12,7 @@
 
 # Introduction
 A javascript template engine for frontend and backend
-# Use
+# Usage
 ```
 npm install scissor
 ```
