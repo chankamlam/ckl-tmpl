@@ -1,0 +1,27 @@
+{
+  "name": "scissor",
+  "version": "1.0.0",
+  "description": "a javascript template engine",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "coverage":"npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chankamlam/scissor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chankamlam/scissor/issues"
+  },
+  "homepage": "https://github.com/chankamlam/scissor#readme",
+  "dependencies": {
+    "jest": "^27.4.5"
+  }
+}
