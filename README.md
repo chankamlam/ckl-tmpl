@@ -1,10 +1,10 @@
 ```ascii
-                                   _                         
-                      _____ _____ (_)_____ _____ ____   _____
-                     / ___// ___// // ___// ___// __ \ / ___/
-                    (__  )/ /__ / /(__  )(__  )/ /_/ // /    
-                   /____/ \___//_//____//____/ \____//_/     
-                                                             
+                        __    __        __                     __
+                 _____ / /__ / /       / /_ ____ ___   ____   / /
+                / ___// //_// /______ / __// __ `__ \ / __ \ / / 
+               / /__ / ,<  / //_____// /_ / / / / / // /_/ // /  
+               \___//_/|_|/_/        \__//_/ /_/ /_// .___//_/   
+                                                   /_/           
 ```
 [![Node.js CI](https://github.com/chankamlam/scissor/actions/workflows/node.js.yml/badge.svg)](https://github.com/chankamlam/scissor/actions/workflows/node.js.yml)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
