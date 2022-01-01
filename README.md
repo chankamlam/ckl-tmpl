@@ -11,5 +11,9 @@
 [![author](https://img.shields.io/badge/author-chankamlam-blue.svg)](https://github.com/chankamlam)
 
 # Introduction
+A javascript template engine for frontend and backend
 # Use
+```
+npm install scissor
+```
 # API
