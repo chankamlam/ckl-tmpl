@@ -1,6 +1,6 @@
 {
   "name": "@chankamlam/js-tmpl",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A javascript template engine for frontend and backend",
   "main": "lib/index.js",
   "directories": {
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "npx jest",
     "coverage": "npx jest --coverage",
-    "publish": "npm publish --access public"
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
