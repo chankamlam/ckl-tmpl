@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chankamlam/scissor.git"
+    "url": "git+https://github.com/chankamlam/ckl-tmpl.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chankamlam/scissor/issues"
+    "url": "https://github.com/chankamlam/ckl-tmpl/issues"
   },
-  "homepage": "https://github.com/chankamlam/scissor#readme",
+  "homepage": "https://github.com/chankamlam/ckl-tmpl#readme",
   "devDependencies": {
     "jest": "^27.4.5"
   }
