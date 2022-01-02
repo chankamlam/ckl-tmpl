@@ -12,8 +12,16 @@
 
 # Introduction
 A javascript template engine for frontend and backend
+# Installation
+```
+npm install @chankamlam/js-tmpl
+```
 # Usage
-```
-npm install js-tmpl
-```
 # API
+## config
+```
+
+```
+## render
+```
+```
