@@ -6,9 +6,24 @@ describe("Test template engine", () => {
         expect(te).toHaveProperty("render")
     });
     test("template engine config normaly", () => {
-        expect(te.config({})).toBeTruthy
+        var option = {
+            openDelimiter:"{{",
+            closeDelimiter:"}}"
+        }
+        te.config(option)
+        var tmpl = `i am {{=age}} years old.`
+        var data = {
+            age:39
+        }
+        var res = te.render(tmpl,data)
+        expect(res).toEqual("i am 39 years old.")
     })
     test("template engine render normaly", () => {
+        var option = {
+            openDelimiter:"<%",
+            closeDelimiter:"%>"
+        }
+        te.config(option)
         var tmpl = `<div>
 My name is <%=name%> and i am <%=age%> years old.
 I live in <%=contact.address%> and <%my phone number is <%=contact.phone%>.
