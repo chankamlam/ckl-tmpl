@@ -44,6 +44,26 @@ My favorite coins are:
             coins: ["ETH", "BTC"]
         }
         const res = te.render(tmpl,data)
-        expect(res).toEqual("<div> My name is ckl and i am 18 years old. I live in xxxxxxxx and <%my phone number is 888. My favorite coins are: <ul>      <li>ETH</li>      <li>BTC</li>  </ul> </div>")
+        expect(res).toEqual("<div>My name is ckl and i am 18 years old.I live in xxxxxxxx and <%my phone number is 888.My favorite coins are:<ul>    <li>ETH</li>    <li>BTC</li></ul></div>")
+    })
+    test("express render normaly", (done) => {
+        var option = {
+            openDelimiter:"<%",
+            closeDelimiter:"%>"
+        }
+        te.config(option)
+        var data = {
+            name: "ckl",
+            age: 18,
+            contact: {
+                address: "hk of china",
+                phone: 888
+            },
+            coins: ["ETH", "BTC"]
+        }
+        te.__express(`${__dirname}/template.html`,data,(_,res)=>{
+            expect(res).toEqual(`<div>    My name is ckl and i am 18 years old.    I live in hk of china and <%my phone number is 888.    My favorite coins are:    <ul>            <li>ETH</li>            <li>BTC</li>        </ul></div>`)
+            done()
+        })
     })
 });
