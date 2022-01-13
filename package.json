@@ -1,6 +1,6 @@
 {
   "name": "@chankamlam/js-tmpl",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A javascript template engine for frontend and backend",
   "main": "lib/index.js",
   "directories": {
@@ -27,6 +27,6 @@
     "jest": "^27.4.5"
   },
   "dependencies": {
-    "@chankamlam/js-tmpl": "^1.0.7"
+    "@chankamlam/js-tmpl": "^1.0.8"
   }
 }
