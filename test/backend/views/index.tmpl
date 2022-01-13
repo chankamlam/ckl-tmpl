@@ -1,0 +1,10 @@
+<div>
+    My name is <%=name%> and i am <%=age%> years old.
+    I live in <%=contact.address%> and <%my phone number is <%=contact.phone%>.
+    My favorite coins are:
+    <ul>
+    <% coins.forEach(function(item){ %>
+        <li><%= item %></li>
+    <% }); %>
+    </ul>
+</div>

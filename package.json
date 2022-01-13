@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/chankamlam/js-tmpl#readme",
   "devDependencies": {
+    "express": "^4.17.2",
     "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "@chankamlam/js-tmpl": "^1.0.7"
   }
 }
