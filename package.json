@@ -1,6 +1,6 @@
 {
   "name": "@chankamlam/js-tmpl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A javascript template engine for frontend and backend",
   "main": "lib/index.js",
   "directories": {
