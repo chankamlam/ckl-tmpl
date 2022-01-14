@@ -101,6 +101,13 @@ app.listen(3000,()=>{
 ```
 ## render(tmpl,data)
 ```
-// tmpl => string
-// data => object
+tmpl => string
+data => object.  // {}
+
+```
+##__express(filePath, data, callback)
+```
+filePath => string
+data => object   // {}
+callback => fn(err,response) // err:object, response:object
 ```
