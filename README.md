@@ -91,10 +91,16 @@ app.listen(3000,()=>{
 ```
 
 # API
-## config
+## config(option)
 ```
-
+  // option
+  {
+      openDelimiter:"<%",      // open delimiter
+      closeDelimiter:"%>"      // close delimiter
+  }
 ```
-## render
+## render(tmpl,data)
 ```
+// tmpl => string
+// data => object
 ```
