@@ -33,6 +33,6 @@
   "devDependencies": {
     "express": "^4.17.2",
     "jest": "^27.4.5",
-    "@chankamlam/js-tmpl": "^1.0.7"
+    "@chankamlam/js-tmpl": "^1.0.8"
   }
 }
