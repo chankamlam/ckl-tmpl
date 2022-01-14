@@ -1,6 +1,6 @@
 {
   "name": "@chankamlam/js-tmpl",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A javascript template engine for frontend and backend",
   "main": "lib/index.js",
   "directories": {
@@ -16,7 +16,15 @@
     "type": "git",
     "url": "git+https://github.com/chankamlam/js-tmpl.git"
   },
-  "author": "",
+   "author": {
+    "name": "chankamlam",
+    "email": "chankamlam@icloud.com"
+  },
+  "keywords": [
+    "js template",
+    "javascript template",
+    "template engine"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chankamlam/js-tmpl/issues"
