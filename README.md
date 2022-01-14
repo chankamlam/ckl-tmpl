@@ -18,7 +18,7 @@ npm install @chankamlam/js-tmpl
 ```
 # Usage
 
-Frontend Usage
+### Frontend Usage
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +58,7 @@ Frontend Usage
 </body>
 </html>
 ```
-Backend Usage
+### Backend Usage
 ```
 var express = require('express');
 var tmpl = require("@chankamlam/js-tmpl")
@@ -91,7 +91,7 @@ app.listen(3000,()=>{
 ```
 
 # API
-## config(option)
+### config(option)
 ```
   // option
   {
@@ -99,13 +99,13 @@ app.listen(3000,()=>{
       closeDelimiter:"%>"      // close delimiter
   }
 ```
-## render(tmpl,data)
+### render(tmpl,data)
 ```
 tmpl => string
 data => object.  // {}
 
 ```
-##__express(filePath, data, callback)
+### __express(filePath, data, callback)
 ```
 filePath => string
 data => object   // {}
